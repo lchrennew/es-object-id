@@ -26,6 +26,11 @@ export const parseObjectID = str => {
     return { timestamp, machine, pid, inc }
 }
 
+/**
+ *
+ * @param feed {{timestamp: number, pid: number, inc: number}}
+ * @return {string}
+ */
 export const generateObjectID = feed => {
     const {
         timestamp = ~~(Date.now() / 1000),
