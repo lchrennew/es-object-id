@@ -1,0 +1,9 @@
+{
+  "name": "es-object-id",
+  "version": "1.0.0",
+  "description": "ObjectID helper via ES module",
+  "main": "oid.js",
+  "author": "Chun Li",
+  "license": "MIT",
+  "type": "module"
+}
